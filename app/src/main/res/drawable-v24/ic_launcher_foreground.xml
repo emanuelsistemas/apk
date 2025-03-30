@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Carrinho de compras -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M35,40 L45,65 L75,65 L85,40 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#81D4FA" />
+    
+    <!-- Rodas do carrinho -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M45,75 A5,5 0 1,0 45,65 A5,5 0 1,0 45,75 Z" />
+    
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M75,75 A5,5 0 1,0 75,65 A5,5 0 1,0 75,75 Z" />
+    
+    <!-- Símbolo de dólar -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M60,55 L60,35 M55,40 L65,40 M55,50 L65,50"
+        android:strokeWidth="4"
+        android:strokeColor="#81D4FA" />
+</vector>

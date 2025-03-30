@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nexopdv.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:5:5-67
+11-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:6:5-79
+12-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.nexopdv.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.nexopdv.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:8:5-33:19
+21        android:allowBackup="true"
+21-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:10:9-43
+25        android:label="@string/app_name"
+25-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:11:9-41
+26        android:supportsRtl="true"
+26-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:12:9-35
+27        android:theme="@style/AppTheme"
+27-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:13:9-40
+28        android:usesCleartextTraffic="true" >
+28-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:14:9-44
+29        <activity
+29-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:15:9-23:20
+30            android:name="com.nexopdv.app.SplashActivity"
+30-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:16:13-43
+31            android:exported="true"
+31-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:17:13-36
+32            android:theme="@style/AppTheme" >
+32-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:18:13-44
+33            <intent-filter>
+33-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:19:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:20:17-69
+34-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:21:17-77
+36-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:25:9-28:47
+40            android:name="com.nexopdv.app.MainActivity"
+40-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:26:13-41
+41            android:configChanges="orientation|keyboardHidden|screenSize"
+41-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:27:13-74
+42            android:theme="@style/AppTheme" />
+42-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:28:13-44
+43        <activity
+43-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:30:9-32:47
+44            android:name="com.nexopdv.app.NoConnectionActivity"
+44-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:31:13-49
+45            android:theme="@style/AppTheme" />
+45-->/root/APK/NexoPDV/app/src/main/AndroidManifest.xml:32:13-44
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+49            android:authorities="com.nexopdv.app.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
